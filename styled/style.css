@@ -13,7 +13,7 @@ h1 {
 }
 
 p {
-    margin: 3%;
+    margin: 3vw;
     margin: 1vmax;
 }
 
@@ -38,6 +38,7 @@ p {
     justify-content: space-around;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 10px;
    
 }
 
@@ -47,7 +48,8 @@ p {
 }
 
 .avatar {
-    max-width: 15vw;
+    width: 15vw;
+    min-width: 10vmax ;
     border-radius: 50%;
     align-self: center;
 }
@@ -79,6 +81,7 @@ p {
 .box{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     width: 55%;
     height: 85%;
     margin: 10px;
