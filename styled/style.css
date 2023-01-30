@@ -13,8 +13,8 @@ h1 {
 }
 
 p {
-    margin: 3vw;
-    margin: 1vmax;
+    padding: 0;
+    margin: 0;
 }
 
 .principal {
@@ -37,9 +37,9 @@ p {
     flex-direction: row;
     justify-content: space-around;
     margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 10px;   
     margin-bottom: 10px;
-   
+    
 }
 
 .icons {
@@ -66,7 +66,8 @@ p {
 }
 
 .boxes {
-    width: 80%;
+    width: 80vw;
+    max-width: 65vmax;
     height: 100%;
     display:flex;
     transform-style: preserve-3d;
