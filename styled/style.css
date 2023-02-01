@@ -15,6 +15,13 @@ h1 {
 p {
     padding: 0;
     margin: 0;
+    font-size: 1.5vmax;
+}
+
+.text {
+    margin: 3vw;
+    text-align: justify;
+    
 }
 
 .principal {
@@ -22,7 +29,7 @@ p {
     width: 100%;
     background-color: rgb(18, 18, 110);
     background-image: linear-gradient( to right, transparent, transparent ,rgb(15, 7, 44));
-    perspective: 1000px;
+    perspective: 3000px;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
@@ -30,7 +37,6 @@ p {
     overflow: hidden;
 
 }
-
 
 .networks {
     display: flex;
@@ -60,14 +66,16 @@ p {
     border: none;
     cursor: pointer;
     user-select: none;
-    font-size: 5vw;
-    color: white;
-    
+}
+
+.arrows {
+    width: 7vw;
+    filter: invert(100%);
 }
 
 .boxes {
-    width: 80vw;
-    max-width: 65vmax;
+    width: 90vw;
+    max-width: 1200px;
     height: 100%;
     display:flex;
     transform-style: preserve-3d;
